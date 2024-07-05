@@ -10,9 +10,24 @@ Welcome to my GitHub profile! Here you'll find a variety of projects, ranging fr
 
 ### Technologies I Work With
 - Languages: Python, PHP
-- Frameworks: Codeigniter, Laravel, Flask API
+- Frameworks: Codeigniter, Laravel, Flask API, Django, FastAPI
 
 ### Let's Connect
 - LinkedIn: https://www.linkedin.com/in/kunal-kanti-paul-26b92a98/
 
 Feel free to explore my repositories and connect with me! I'm always open to new opportunities and collaborations. Thanks for stopping by! 🚀
+
+
+<!--icons and links-->
+<p align="center">
+<a href="https://www.linkedin.com/in/kunal-kanti-paul-26b92a98/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png" alt="linkedin" height="30" width="30" /></a>
+<a href="https://portfolio-tch0.onrender.com/" target="blank"><img align="center" src="https://github.com/kunal-paul04/politianalytica_project/assets/159779864/73947408-0eb4-4769-9fe1-bc529c50c20e" alt="portfolio" height="30" width="30" /></a>
+  
+</p>
+
+<!--profile visit count-->
+<div align="center">
+
+[![](https://visitcount.itsvg.in/api?id=kunal-paul04&label=Profile%20Views&color=6&icon=0&pretty=true)](https://visitcount.itsvg.in)
+
+</div>
