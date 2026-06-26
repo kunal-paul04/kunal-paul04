@@ -1,167 +1,177 @@
 <h1 align="center">Hi 👋, I'm Kunal Kanti Paul</h1>
 
-<h3 align="center">
-Software Developer | Python Backend Engineer | API & Microservices Enthusiast
-</h3>
+<h3 align="center">Senior Software Developer · Python Backend Engineer · Civic & AI Systems Builder</h3>
 
 <p align="center">
-Building scalable backend systems, data processing pipelines, and cloud-native applications.
+  Building production-grade backend systems, ML-powered platforms, and cloud-native applications that serve millions.<br/>
+  Deputy Manager @ <strong>Digital India Corporation (MeitY)</strong> — powering DigiLocker, NAD, MY Bharat & ABC for 100M+ users.
+</p>
+
+<p align="center">
+  <a href="https://kunalkantipaul.vercel.app/" target="_blank">🌐 Portfolio</a> •
+  <a href="https://linkedin.com/in/kunal-kanti-paul-26b92a98" target="_blank">💼 LinkedIn</a> •
+  <a href="https://leetcode.com/kunalkantipaul/" target="_blank">🧠 LeetCode</a>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a Software Developer with experience designing and developing backend systems, REST APIs, data processing pipelines, and cloud-based applications.
+I'm a Senior Software Developer with 5+ years of experience designing and operating backend systems at national scale. At Digital India Corporation, I build and maintain platforms that millions of Indians use daily — from document storage and academic credentialing to youth engagement and identity verification.
 
-Currently working on:
+Outside my day job, I build civic-tech and AI-powered tools, focusing on problems that matter in the real world.
 
-- 🚀 Scalable backend services using Python and FastAPI
-- ☁️ Cloud-native applications on AWS
-- 🔄 Event-driven architectures using RabbitMQ
-- 📊 Large-scale data processing and ETL pipelines
-- 🐳 Containerized deployments with Docker
-- ⚙️ CI/CD automation using Jenkins and GitHub Actions
-
-I enjoy solving complex engineering problems and building systems that are reliable, secure, and maintainable.
+**Currently working on:**
+- 🏙️ **UrbanLens** — AI-powered urban infrastructure intelligence platform *(in progress)*
+- 🌾 **KrishiDrishti** — AI crop yield prediction for Northeast India *(Phase 9 complete · Live)*
+- 📡 **Data Processing Workers** — High-volume RabbitMQ + S3 + Redshift pipelines
 
 ---
 
-## 🛠 Technical Skills
+## 🚀 Featured Projects
+
+### 🌾 KrishiDrishti — कृषि दृष्टि
+> **AI-powered crop yield intelligence for Northeast India** · ✅ Complete · [Live Demo](http://80.225.195.96) · [Repo](https://github.com/kunal-paul04/KrishiDrishti)
+
+Predicts district-level agricultural yields across **95 districts and 8 Northeast Indian states** using ML models trained on real satellite, weather, and soil data.
+
+**Highlights:**
+- 🤖 **XGBoost + LSTM models** for 5 crops (Rice, Jute, Wheat, Mustard, Maize) — trained on 12,350 yield records
+- 🛰️ **Real data pipelines** — Open-Meteo weather API, MODIS/GEE satellite NDVI, ERA5 soil moisture
+- 🗺️ **Interactive choropleth map** — state/crop/year filters with click-to-explore districts
+- 🔍 **Explainable AI** — SHAP feature importance on every prediction with confidence intervals
+- 🔒 **Security hardened** — CSP headers, rate limiting, input validation, CORS, error boundaries (Audit: B+)
+- 🐳 **Deployed on Oracle Cloud (Mumbai)** via Docker Compose + Nginx
+
+**Stack:** `FastAPI` `Python 3.11` `XGBoost` `PyTorch LSTM` `SHAP` `Next.js 14` `SQLite` `Docker` `Nginx` `Oracle Cloud`
+
+---
+
+### 🏙️ UrbanLens *(In Progress)*
+> **AI-powered urban infrastructure intelligence platform**
+
+Analysing urban infrastructure patterns, public amenity gaps, and city-level planning indicators using geospatial data and ML.
+
+**Building with:** `FastAPI` `Python` `PostgreSQL` `GeoPandas` `Docker` `AWS`
+
+---
+
+### 🔐 OneAccess
+> **Enterprise Single Sign-On platform** · [Repo](https://github.com/kunal-paul04/OneAccess)
+
+Full-stack SSO implementation supporting OAuth2 flows, JWT-based session management, and multi-application authentication federation.
+
+**Stack:** `FastAPI` `React JS` `Python` `JavaScript` `Docker` `OAuth2` `JWT`
+
+---
+
+### 🛡️ WEBSec-Tester — DAST Security Scanner
+> **Dynamic Application Security Testing platform** · [Repo](https://github.com/kunal-paul04/websec_dast_tester)
+
+Automated web security scanner implementing OWASP Top 10 checks, SSL/TLS analysis, HTTP header inspection, dependency scanning, and performance testing with report generation.
+
+**Stack:** `FastAPI` `Python` `Jinja2` `Docker`
+
+---
+
+### 🔗 ByteLink *(In Progress)*
+> **URL shortening platform** — inspired by Bitly
+
+`FastAPI` `PostgreSQL` `Docker` `REST APIs`
+
+---
+
+### 🏛️ CivicIQ *(In Progress)*
+> **Citizen data analytics platform** — public policy insights, geospatial analysis, predictive analytics
+
+`Python` `FastAPI` `Data Visualization` `Geospatial`
+
+---
+
+## 🏛️ Professional Work — Digital India Corporation (MeitY)
+
+At DIC, I've engineered the backend systems behind some of India's most critical digital infrastructure:
+
+| Platform | Role | Scale |
+|---|---|---|
+| **DigiLocker** | Backend Engineer — document storage & verification APIs | 100M+ registered users |
+| **NAD** | Backend Engineer — national academic depository | 500+ affiliated institutions |
+| **MY Bharat** | Backend Engineer — national youth engagement portal | Nationwide |
+| **ABC** | Backend Engineer — Academic Bank of Credits | Active |
+| **Parinaam Manjusha** | Developer — CBSE exam results platform | Millions of students |
+
+---
+
+## 🛠️ Technical Skills
 
 ### Languages
-
-```text
-Python • PHP • JavaScript • SQL
+```
+Python  •  PHP  •  JavaScript  •  SQL  •  Bash
 ```
 
-### Backend Development
-
-```text
-FastAPI • Flask • Laravel • CodeIgniter
-REST APIs • Authentication • Microservices
+### Backend Frameworks
+```
+FastAPI  •  Flask  •  Laravel  •  CodeIgniter  •  Node.js (Express)
+REST APIs  •  OAuth2  •  JWT  •  Microservices  •  API Gateway
 ```
 
 ### Databases
-
-```text
-MongoDB • MySQL • Redis
-Amazon DynamoDB • Redshift
+```
+PostgreSQL  •  MySQL  •  Redis  •  MongoDB
+Amazon DynamoDB  •  Amazon Redshift  •  Elasticsearch
 ```
 
 ### Cloud & DevOps
-
-```text
-AWS • Docker • Jenkins
-GitHub Actions • Linux • Apache
+```
+AWS (S3, EC2, Lambda, CloudWatch)  •  Docker  •  Docker Compose
+Jenkins  •  GitHub Actions  •  Nginx  •  CI/CD  •  Linux
 ```
 
-### Messaging & Data Processing
+### Messaging & Data Engineering
+```
+RabbitMQ  •  Apache Airflow  •  ETL Pipelines
+ELK Stack (Elasticsearch · Logstash · Kibana)
+Amazon S3  •  CSV Pipelines  •  Batch Processing
+```
 
-```text
-RabbitMQ • ETL Pipelines
-CSV Processing • Data Migration
-Batch Processing
+### ML & AI (Projects)
+```
+XGBoost  •  PyTorch (LSTM)  •  SHAP  •  scikit-learn
+Geospatial (GeoPandas, GEE, MODIS)  •  Open-Meteo  •  ERA5
+```
+
+### Security
+```
+OWASP Top 10  •  DAST  •  CSP Headers  •  Rate Limiting
+Input Validation (Pydantic)  •  Secure coding practices
 ```
 
 ### Tools
-
-```text
-Git • GitHub • Postman
-VS Code • PyCharm
+```
+Git  •  GitHub  •  Postman  •  VS Code  •  PyCharm  •  Windsurf
 ```
 
 ---
 
-## 🚀 What I'm Currently Working On
+## 📚 Currently Learning
 
-### 🔗 ByteLink
-A URL shortening platform inspired by Bitly using:
-
-- FastAPI
-- PostgreSQL
-- Docker
-- REST APIs
-
----
-
-### 🏛 CivicIQ
-A citizen data analytics platform focused on:
-
-- Public policy insights
-- Data visualization
-- Geospatial analysis
-- Predictive analytics
-
----
-
-### 📦 Data Processing Workers
-
-Building high-volume processing systems involving:
-
-- RabbitMQ
-- Amazon S3
-- Amazon Redshift
-- MongoDB
-- CSV Generation Pipelines
-
-Capable of handling millions of records efficiently.
-
----
-
-## 💼 Professional Interests
-
-- Backend Engineering
-- Distributed Systems
-- Microservices Architecture
-- Cloud Computing
-- DevOps Automation
-- Data Engineering
-- System Design
-
----
-
-## 📚 Learning & Exploring
-
-Currently exploring:
-
-- Kubernetes
-- Event-Driven Architectures
-- Advanced System Design
-- AI Integrations in Backend Systems
-- Scalable Distributed Applications
+- ☸️ Kubernetes & container orchestration
+- 🤖 AI agent integrations in backend systems
+- 📐 Advanced system design patterns
+- ⚡ Event-driven architecture at scale
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="left">
-<a href="https://linkedin.com/in/kunal-kanti-paul-26b92a98" target="_blank">
-LinkedIn
-</a>
-•
-<a href="https://instagram.com/kunal_._paul" target="_blank">
-Instagram
-</a>
+  <a href="https://kunalkantipaul.vercel.app/" target="_blank">🌐 Portfolio</a> •
+  <a href="https://linkedin.com/in/kunal-kanti-paul-26b92a98" target="_blank">💼 LinkedIn</a> •
+  <a href="https://leetcode.com/kunalkantipaul/" target="_blank">🧠 LeetCode</a>
 </p>
+
+Open to **Senior Backend Developer** and **Senior Software Developer** roles. Feel free to explore my repos, open issues, or reach out for collaboration.
 
 ---
 
-## 📈 GitHub
-
-I use GitHub to share projects related to:
-
-- Backend Development
-- FastAPI Applications
-- Data Engineering
-- Automation Tools
-- Cloud Solutions
-- Open Source Experiments
-
-Feel free to explore my repositories, open issues, or connect for collaboration opportunities.
-
----
-
-<p align="center">
-"First, solve the problem. Then, write the code."
-</p>
+<p align="center"><em>"First, solve the problem. Then, write the code."</em></p>
