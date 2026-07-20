@@ -31,7 +31,7 @@ Outside my day job, I build civic-tech and AI-powered tools, focusing on problem
 ## 🚀 Featured Projects
 
 ### 🌾 KrishiDrishti — कृषि दृष्टि
-> **AI-powered crop yield intelligence for Northeast India** · ✅ Complete · [Live Demo](http://80.225.195.96) · [Repo](https://github.com/kunal-paul04/KrishiDrishti)
+> **AI-powered crop yield intelligence for Northeast India** · ✅ Complete · [Live Demo](http://80.225.195.96/krishidrishti) · [Repo](https://github.com/kunal-paul04/KrishiDrishti)
 
 Predicts district-level agricultural yields across **95 districts and 8 Northeast Indian states** using ML models trained on real satellite, weather, and soil data.
 
@@ -47,10 +47,20 @@ Predicts district-level agricultural yields across **95 districts and 8 Northeas
 
 ---
 
-### 🏙️ UrbanLens *(In Progress)*
-> **AI-powered urban infrastructure intelligence platform**
+### 🏙️ UrbanLens
+> **AI-powered urban infrastructure intelligence platform** · ✅ Complete · [Live Demo](http://80.225.195.96/urbanlens) · [Repo](https://github.com/kunal-paul04/urbanlens)
 
 Analysing urban infrastructure patterns, public amenity gaps, and city-level planning indicators using geospatial data and ML.
+
+**Features:**
+- **Real-time congestion prediction** — XGBoost and LSTM models predict segment-level congestion scores for the next 15 / 30 / 60 minutes
+- **Multi-factor feature engineering** — time-of-day, day-of-week, weather conditions, public holidays, and nearby event calendars
+- **Java API Gateway** — Spring Boot 3 handles auth, rate limiting, caching, and proxying to the ML engine
+- **JWT authentication** — Spring Security with role-based access (`ADMIN`, `ANALYST`, `VIEWER`)
+- **Smart caching** — Redis TTL-based prediction cache reduces ML calls by ~70 %
+- **Custom FastAPI docs** — branded Swagger UI with dark terminal theme and interactive playground
+- **Interactive dashboard** — Next.js heatmap, segment drill-down, and historical trend charts
+- **Dockerized deployment** — single `docker compose up` spins the full stack on Oracle Cloud free tier
 
 **Building with:** `FastAPI` `Python` `PostgreSQL` `GeoPandas` `Docker` `AWS`
 
